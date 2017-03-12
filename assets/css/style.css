@@ -2,14 +2,29 @@
 	box-sizing: border-box;
 }
 
+body {
+	background-image: url(../images/ep_naturalblack.png);
+}
+
 #gif-form {
 	float: right;
+	margin-top: 0px;
 }
 
 #newbuttons {
 	float: left;
+	margin-bottom: 10px;
 }
 
 #gif-view {
-	margin-top: 25px;
+	margin-top: 40px;
+	margin-right: auto;
+	width: 700px;
+	height: auto;
 }
+
+p {
+	font-size: 15px;	
+	color: #FFFFFF;
+}
+
