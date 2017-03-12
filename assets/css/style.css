@@ -1,0 +1,15 @@
+* {
+	box-sizing: border-box;
+}
+
+#gif-form {
+	float: right;
+}
+
+#newbuttons {
+	float: left;
+}
+
+#gif-view {
+	margin-top: 25px;
+}
