@@ -29,8 +29,8 @@
                     	img.attr("data-animate", animated);
 						img.attr("src", still);
 						
-						$("#gif-view").append(img);
-						$("#gif-view").append(r);
+						$("#gif-view").prepend(img);
+						$("#gif-view").prepend(r);
 
 					}
 				});
