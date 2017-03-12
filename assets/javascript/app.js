@@ -7,7 +7,7 @@
 			function displayDiv(){
 
 				var gif = $(this).attr("data-name");
-				var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + gif + "&limit=10&rating=g&api_key=dc6zaTOxFJmzC";
+				var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + gif + "&limit=10&rating=g&api_key=dc6zaTOxFJmzC";
 				
 				//Create AJAX call
 				$.ajax({
